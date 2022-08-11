@@ -1,0 +1,20 @@
+.todo__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  border: 1px solid rgb(121, 95, 95);
+  border-radius: 1vh;
+  margin-bottom: 20px !important;
+  margin-top: 20px !important;
+  background-color: #b3dec1;
+}
+@media only screen and (max-width: 700px) {
+  .todo__list {
+    width: 80vw;
+  }
+}
+
+.delete {
+  margin-right: 40px;
+}
